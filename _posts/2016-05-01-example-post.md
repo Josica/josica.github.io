@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "An example post"
+title: "Tensorflow and Machine Learning"
 description: "Here's what an md file looks like with this theme."
 tags: [first-tag, second-tag]
 categories: [first-category, second-category]
