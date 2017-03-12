@@ -174,7 +174,7 @@ body {
   /* currently ems cause chrome bug misinterpreting rems on body element */
   line-height: 1.6;
   font-weight: 400;
-  font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   color: #222;
   margin-left: 0;
   margin-top: 0;
@@ -189,7 +189,7 @@ main {
 h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: 2rem;
-  font-weight: 300; }
+  font-weight: 900; }
 
 h1 {
   font-size: 4.0rem;
@@ -225,7 +225,7 @@ h6 {
   text-transform: uppercase;
   letter-spacing: .2rem;
   font-size: 1.4rem;
-  font-weight: 600; }
+  font-weight: 900; }
 
 .small-header {
   font-size: 1.7rem; }
@@ -280,7 +280,7 @@ input[type="button"] {
   color: #555;
   text-align: center;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 400;
   line-height: 38px;
   letter-spacing: .1rem;
   text-transform: uppercase;
@@ -749,7 +749,7 @@ there.
   display: inline;
   text-transform: uppercase;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 400;
   letter-spacing: .2rem;
   margin-right: 35px;
   text-decoration: none;
@@ -796,7 +796,7 @@ body {
   .footer .footer-column {
     margin: 20px 0;
     font-size: 11px;
-    font-weight: 600;
+    font-weight: 400;
     letter-spacing: .2rem;
     text-transform: uppercase; }
   .footer .text {
@@ -810,7 +810,7 @@ body {
 /**
  * Index page styles
  */
- 
+
 .index-section {
   border-bottom: 1px solid #eee;
   padding-bottom: 20px;
