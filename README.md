@@ -1,4 +1,4 @@
-# Your first static site (with Jekyll!)
+# Portfolio blog site info
 
 A starting frame for a Jekyll site.
 
