@@ -175,9 +175,10 @@ body {
   line-height: 1.6;
   font-weight: 400;
   font-family: 'Source Sans Pro', sans-serif;
-  color: #222;
+  color: #32708A;
   margin-left: 0;
   margin-top: 0;
+  background-color: #FFF;
   width: 100%; }
 
 main {
@@ -261,11 +262,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #1EAEDB;
+  color: #0dc6da;
   text-decoration: none; }
 
 a:hover {
-  color: #33C3F0; }
+  color: #0dc6da; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -748,16 +749,16 @@ there.
 .navbar-link {
   display: inline;
   text-transform: uppercase;
-  font-size: 11px;
+  font-size: .8em;
   font-weight: 400;
   letter-spacing: .2rem;
   margin-right: 35px;
   text-decoration: none;
   line-height: 6.5rem;
-  color: #222; }
+  color: #32708A; }
 
 .navbar-link.active {
-  color: #33C3F0; }
+  color: #FFF; }
 
 .has-docked-nav .navbar {
   position: fixed;
@@ -768,6 +769,7 @@ there.
   display: block; }
 
 .navbar {
+  background-color: #FFF;
   position: fixed;
   z-index: 200;
   top: 0; }
