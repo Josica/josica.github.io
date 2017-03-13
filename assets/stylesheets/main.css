@@ -869,6 +869,10 @@ body {
         border-radius: 50%;
     }
 
+    .img-round {
+        border-radius: 3%;
+    }
+
     .hero {
     height: 40%;
     background-size: cover;
