@@ -179,6 +179,7 @@ body {
   margin-left: 0;
   margin-top: 0;
   background-color: #FFF;
+  background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
   width: 100%; }
 
 main {
@@ -262,11 +263,11 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-  color: #0dc6da;
+  color: #fb8aa3;
   text-decoration: none; }
 
 a:hover {
-  color: #0dc6da; }
+  color: #fb8aa3; }
 
 /* Buttons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -755,7 +756,7 @@ there.
   margin-right: 35px;
   text-decoration: none;
   line-height: 6.5rem;
-  color: #32708A; }
+  color: #f04870; }
 
 .navbar-link.active {
   color: #FFF; }
@@ -769,7 +770,7 @@ there.
   display: block; }
 
 .navbar {
-  background-color: #FFF;
+  background-color: #d9e4f6;
   position: fixed;
   z-index: 200;
   top: 0; }
@@ -794,7 +795,8 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 100px;
-  background-color: #f5f5f5; }
+  background-color: #eee2e4;
+ }
   .footer .footer-column {
     margin: 20px 0;
     font-size: 11px;
@@ -849,3 +851,16 @@ body {
   font-size: 1.2rem; }
   .post-date .date-caret {
     padding: 0 1.0rem 0 0.5rem; }
+
+    .pink-blue{
+      background-color: #fb8aa3;
+    }
+    .pink-blue img{
+       mix-blend-mode: lighten;
+      -webkit-filter: grayscale(100%) contrast(1);
+      filter: grayscale(100%) contrast(.8);
+    }
+    .pink-blue::after{
+      background-color: #32708A;
+      mix-blend-mode: lighten;
+    }
