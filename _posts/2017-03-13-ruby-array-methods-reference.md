@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby Array Methods Quick Reference"
+title: "Ruby Array Methods Reference"
 description: "Using Ruby's each, map, select and inject methods on arrays."
 tags: [ruby]
 categories: [programming]
@@ -45,7 +45,10 @@ Example:
 <hr>
 <center>
 <h3 class="header large-header">The .inject method</h3>
-<h5>Used for iterating over a collection in Ruby. Executes an action using each element of the array as a parameter. It implicitly returns the original array.</h5>
+<h5>Used for totaling values in an array in Ruby. Takes an accumulator (sum) and changes it as many times as there are elements in the array. Returns the final value of the accumulator. Optional initial value for sum.</h5>
 </center>
 Example:
+<center>
+<script src="//repl.it/embed/GTwj/1.js"></script>
+</center>
 <hr>
