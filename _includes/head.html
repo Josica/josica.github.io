@@ -3,10 +3,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" />
-  <title>{% if page.title == "Home" %}{{ site.title }} &middot; {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} &middot; {{ site.title }}{% endif %}</title>
+  <title>{% if page.title == "Home" %}{{ site.title }} {{ site.tagline }}{% else %}{% if page.tag %}{{ site.data.tags[page.tag].name }}{% else %}{{ page.title }}{% endif %} {{ site.title }}{% endif %}</title>
 
-  <!-- Source Sans Pro font -->
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900" rel="stylesheet">
+  <!-- Googlefonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Poppins:500,600,700" rel="stylesheet">
 
   <!-- FontAwesome files -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/font-awesome.min.css">

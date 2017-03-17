@@ -10,7 +10,7 @@ categories: [programming]
 <center>
 <img class="img-round" src="{{ site.baseurl }}/assets/images/rubyarrays.png">
 <br><br>
-<h3 class="header large-header">The .each method</h3>
+<h3 class="header large-header purple">The .each method</h3>
 <h5>Used for iterating over a collection in Ruby. Executes an action using each element of the array as a parameter. It implicitly returns the original array.</h5>
 </center>
 Example:
@@ -23,7 +23,7 @@ Example:
 
 <hr>
 <center>
-<h3 class="header large-header">The .map method</h3>
+<h3 class="header large-header purple">The .map method</h3>
 <h5>Used for iterating over a collection in Ruby when you want to modify and return a new value. Performs an action on each array element. The original array is not modified.</h5>
 </center>
 Example:
@@ -34,7 +34,7 @@ Example:
 
 <hr>
 <center>
-<h3 class="header large-header">The .select method</h3>
+<h3 class="header large-header purple">The .select method</h3>
 <h5>Used for filtering a collection in Ruby. Selects values from an array by running a condition for each array element and, if true, that element gets added to a new array which is returned. </h5>
 </center>
 Example:
@@ -44,7 +44,7 @@ Example:
 <p>In this example, we are running the condition to select all dessert prices that are greater than 2, over each element in the dessert_prices array, and adding each element that returns true into the new array, one at a time. The return value is the new array of prices which are greater than 2.</p>
 <hr>
 <center>
-<h3 class="header large-header">The .inject method</h3>
+<h3 class="header large-header purple">The .inject method</h3>
 <h5>Used for totaling values in an array in Ruby. Takes an accumulator (sum) and changes it as many times as there are elements in the array. Returns the final value of the accumulator. Optional initial value for sum.</h5>
 </center>
 Example:
