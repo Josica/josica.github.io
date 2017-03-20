@@ -11,48 +11,6 @@
 
 <hr>
 
-## Installations
-
-1. Make a [cloud9](https://c9.io/signup) account.
-
-2. Make a new workspace. Give it a name and a description.
-
-  Select the 'Public' option under 'Hosted Workspace'.
-
-  ![public_workspace](/assets/images/public_workspace.png)
-
-  In the 'Clone from Git' input, put the link to this repository:
-
-  ![clone_to_cloud_9](/assets/images/clone_to_cloud_9.png)
-
-  Choose the 'blank template' option:
-
-  ![blank_template](/assets/images/blank-template.png)
-
-  Click 'Create workspace'.
-
-3. Run `./install-script.sh` in the terminal to install all dependencies:
-
-  ![blank_template](/assets/images/run_installations.png)
-
-<br>
-
-**Are you trying to get setup on your local computer instead of Cloud9?** Come speak with me and I will help you with that.
-
-<hr>
-
-## Getting started
-
-Check out the `_config.yml` file first, to set your variables. This config file is read only once when you start your server; so if you make changes to this file while your server is running, you will need to restart your server to see the changes.
-
-**On your local computer:** Run `jekyll server` to serve locally.
-
-**On Cloud9:** Run `jekyll serve --host $IP --port $PORT --baseurl ''` to serve on Cloud9.
-
-This starts serving your site locally. To view, go to [localhost:4000](http://localhost:4000). You'll know your site is running locally if you see a nice site with a 'Hello, world!' heading.
-
-<hr>
-
 ## Included goodies
 
 Assets include:
@@ -61,16 +19,3 @@ Assets include:
 * FontAwesome icons
 
 <hr>
-
-## Additional static pages
-
-Add static pages to `_static/`, specifying frontmatter in each page. Example:
-
-```
----
-layout: page
-title: My Awesome Page
-static-page: true
-permalink: /my-awesome-page/
----
-```
