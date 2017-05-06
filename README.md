@@ -4,3 +4,6 @@
  
  Blog Posts
  - Ruby Array Enums Reference
+ 
+ Future Blog Posts
+ - Javascript Array Methods Reference 
